@@ -1,0 +1,32 @@
+{
+  "name": "openrouter-free-quota",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "openchamber": {
+    "apiVersion": 1,
+    "engines": {
+      "openchamber": ">=2.7.2"
+    },
+    "id": "openrouter-free-quota",
+    "name": "OpenRouter Free Quota",
+    "icon": "coin",
+    "contributes": {
+      "service": {
+        "entry": "service/main.js",
+        "runtime": "host",
+        "provides": ["quota"]
+      },
+      "quota": {
+        "providers": ["openrouter"]
+      }
+    }
+  },
+  "dependencies": {
+    "@openchamber/sdk": "2.7.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
