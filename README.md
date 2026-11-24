@@ -37,5 +37,5 @@ loads the built service directly and does not build extensions during install.
 
 ## License
 
-No license has been selected yet. All rights are reserved unless the copyright
-holder grants permission.
+MIT. See [LICENSE](LICENSE) and [THIRD-PARTY-NOTICES](THIRD-PARTY-NOTICES)
+for the bundled OpenChamber SDK license.

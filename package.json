@@ -1,6 +1,7 @@
 {
   "name": "openrouter-free-quota",
   "description": "Show OpenRouter free-model daily quota in OpenChamber Usage.",
+  "license": "MIT",
   "version": "1.0.0",
   "private": true,
   "type": "module",
